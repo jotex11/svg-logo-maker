@@ -26,6 +26,7 @@ My task was to create a application that asks a user questions about the letters
 
 ## Screenshots
 ![Alt text](<Screenshot 2023-09-06 at 6.32.16 PM.png>)
+![Alt text](<Screenshot 2023-09-06 at 7.11.38 PM.png>)
 
 ## Credits 
 I had to use Stack Overflow to answer some of my questions and find solutions to some of my problems.
