@@ -1,7 +1,9 @@
+// Importing inqirer, fs, and shapes 
 const inquirer = require("inquirer");
 const fs = require("fs");
 const { Circle, Square, Triangle } = require("./lib/shapes");
 
+// Function to ask user questions 
 async function promptUser() {
     const shapeChoice = {
         type: 'list',
@@ -31,6 +33,7 @@ async function promptUser() {
         textColorChoice
     ]);
 
+    // Creates a shape based off user choice
     let shape; 
     switch(answers.shapeType) {
         case 'Circle':
@@ -44,6 +47,7 @@ async function promptUser() {
             break;
     }
 
+    // Sets colors and text based off answer given 
     shape.setColor(answers.shapeColorType);
     shape.setText(answers.textType, answers.textColor);
 
@@ -59,4 +63,5 @@ async function promptUser() {
     })
 }
 
+// Callback function
 promptUser();
