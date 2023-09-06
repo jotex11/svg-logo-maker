@@ -45,7 +45,7 @@ async function promptUser() {
     }
 
     shape.setColor(answers.shapeColorType);
-    shape.setText(answers.textColor, answers.textType);
+    shape.setText(answers.textType, answers.textColor);
 
     const shapeMade = shape.render();
     console.log('svg code:', shapeMade);
