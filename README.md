@@ -20,7 +20,7 @@ My task was to create a application that asks a user questions about the letters
 ## Installation
 1. Clone github repo.
 2. Open on vscode.
-3. Open terminal and type <code>npm install inquirer@8.2.4</code> then <code>npm install jest@24.6.4</code> so you get package.json, and finally type <code>npm init -y</code> so you can have correct files needed.
+3. Open terminal and type <code>npm install inquirer@8.2.4</code> then <code>npm install jest@29.6.4</code> so you get package.json, and finally type <code>npm init -y</code> so you can have correct files needed.
 4. In terminal type <code>node index.js</code> and answer questions asked.
 5. Copy svg file into web browser.
 
