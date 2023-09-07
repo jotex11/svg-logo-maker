@@ -33,6 +33,7 @@ I had to use Stack Overflow to answer some of my questions and find solutions to
 
 ## Links
 [Link to walkthrough video](https://watch.screencastify.com/v/myVHFWAbny9GiUyS99A3)
+
 [Link to Github Repo](https://github.com/jotex11/svg-logo-maker/tree/main)
 
 ## License
